@@ -8,8 +8,8 @@
 </div>
 
 <div align="center">
-  <img src="media/AIME.png" alt="AIME results" width="44%" />
-  <img src="media/token_freq.png" alt="Token frequency" width="50%" />
+  <img src="media/LIFT_framework.png" alt="Learnability-Informed Fine-Tuning results" width="100%" />
+
 </div>
 
 
