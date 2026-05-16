@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Training, evaluation, and generated outputs
+logs/
+wandb/
+**/wandb/
+output/
+outputs/
+results/
+results*/
+eval_results/
+sft_output/
+**/sft_output/
+merged_models/
+**/merged_models/
+token_freq_logs/
+**/token_freq_logs/
+opd_basics/
+aime_ablates/
+
+# Checkpoints and model artifacts
+**/checkpoint-*/
+*.pt
+*.pth
+*.safetensors
+*.safetensors.index.json
+
+# Scheduler and local run artifacts
+*.out
+*.err
+slurm-*.out

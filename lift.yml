@@ -1,0 +1,27 @@
+name: lift
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - setuptools<82
+  - pytorch=2.4
+  - torchvision=0.19
+  - torchaudio=2.4
+  - pytorch-cuda=12.4
+  - numpy=1.26
+  - pandas=2.3
+  - pip:
+      - accelerate==1.4.0
+      - antlr4-python3-runtime==4.11.1
+      - datasets==3.3.2
+      - deepspeed
+      - peft==0.15.1
+      - sentencepiece==0.2.1
+      - sympy==1.14.0
+      - tiktoken==0.9.0
+      - tqdm==4.67.1
+      - transformers==4.57.3
+      - wandb==0.15.3
