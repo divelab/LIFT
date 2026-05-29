@@ -2,8 +2,8 @@
   <h1>Learnability-Informed Fine-Tuning for Diffusion Language Models</h1>
   <p>Code for supervised fine tuning and evaluating diffusion LLMs with Learnability-Informed Fine-Tuning (LIFT).</p>
   <p>
-    <strong>📄 Paper</strong> &nbsp;|&nbsp;
-    <strong>🤗 Hugging Face</strong> 
+    <a href="https://arxiv.org/abs/2605.22939"><strong>Paper</strong></a> &nbsp;|&nbsp;
+    <strong>Hugging Face</strong> 
   </p>
 </div>
 
@@ -17,11 +17,11 @@
   <hr width="100%">
 </div>
 
-## 📰 Updates
+## Updates
 
-- **April 2026**: Accepted to ICML 2026! 🔥
+- **April 2026**: Accepted to ICML 2026!
 
-## 🗂️ Repository Layout
+## Repository Layout
 
 ```text
 scripts/   launch scripts
@@ -30,14 +30,14 @@ eval/      evaluation, generation, and scoring
 dataset/   local datasets (countdown/sudoku/AIME JSONs)
 ```
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 ```bash
 conda env create -f lift.yml
 conda activate lift
 ```
 
-## 🧪 SFT
+## SFT
 
 Run SFT with the root launcher:
 
@@ -57,7 +57,7 @@ python SFT/merge_lora.py \
 
 Use `--architecture llada` for checkpoints that will be evaluated with this repo's LLaDA evaluation code. The script reads `base_model_name_or_path` from the adapter config when available; `--base_model` is used as the fallback.
 
-## 📊 Evaluation
+## Evaluation
 
 Run evaluation with:
 
@@ -73,7 +73,7 @@ Supported `--dataset` keys in `eval/eval.py`:
 
 
 
-## 📚 Module Docs
+## Module Docs
 
 - `SFT/README.md` for training methods, datasets, and SFT scripts
 - `eval/README.md` for evaluation workflow and task details
