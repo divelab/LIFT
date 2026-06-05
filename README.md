@@ -3,7 +3,7 @@
   <p>Code for supervised fine tuning and evaluating diffusion LLMs with Learnability-Informed Fine-Tuning (LIFT).</p>
   <p>
     <a href="https://arxiv.org/abs/2605.22939"><strong>Paper</strong></a> &nbsp;|&nbsp;
-    <strong>Hugging Face</strong> 
+    <a href="https://huggingface.co/papers/2605.22939"><strong>Hugging Face</strong></a> 
   </p>
 </div>
 
