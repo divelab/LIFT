@@ -50,7 +50,7 @@ accelerate launch \
   --batch_size 2 \
   --num_epochs 5 \
   --output_dir ./SFT/sft_output \
-  --learning_rate 1e-5 \
+  --learning_rate 5e-6 \
   --train_data simplescaling/s1k \
   --method lift3 \
   --loss_selection time \
