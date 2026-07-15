@@ -16,6 +16,8 @@ Run LIFT with:
 bash scripts/sft/run_lift_sft.sh
 ```
 
+The default learning rate for LIFT is `5e-6`.
+
 To run the two-component LIFT variant, change `--method lift3` to `--method lift2`.
 
 Launcher command:
@@ -90,6 +92,7 @@ python SFT/token_freq.py \
 | `simplescaling/s1K-1.1` |
 | `openai/gsm8k` |
 | `divelab/dllm` |
+| `divelab/LIFT-SFT-12K` |
 | `KodCode/KodCode-Light-RL-10K` |
 
 ## Loss types and method mapping

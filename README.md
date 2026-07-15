@@ -20,6 +20,7 @@
 ## Updates
 
 - **April 2026**: Accepted to ICML 2026!
+- **July 2026**: Released `LIFT-SFT-12K` on Hugging Face: [divelab/LIFT-SFT-12K](https://huggingface.co/datasets/divelab/LIFT-SFT-12K)
 
 ## Repository Layout
 
@@ -43,6 +44,12 @@ Run SFT with the root launcher:
 
 ```bash
 bash scripts/sft/run_sft.sh
+```
+
+For LIFT training, use the dedicated launcher with the default learning rate set to `5e-6`:
+
+```bash
+bash scripts/sft/run_lift_sft.sh
 ```
 
 Merge LoRA adapters for standalone evaluation checkpoints:
